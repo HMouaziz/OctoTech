@@ -1,9 +1,28 @@
-# React + Vite
+## Branch Name Rules
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- `main`
+- `dev`
+- `features/feature-name`
+- `refactor/refactor-name`
+- `bugfix/bugfix-name`
 
-Currently, two official plugins are available:
+## Pull Request template
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# octotech" 
+### Description
+This pull request addresses the following:
+
+- **Testing:**
+    - [ ] Tested the added feature to ensure it works as expected.
+    - [ ] Checked that the feature doesn't break existing functionality.
+
+- **Changes Made:**
+    - [ ] Briefly describe the modifications made to existing functionality, if any.
+
+- **Additions:**
+    - [ ] Describe any new features, functionality, or code added in this pull request.
+
+#### Additional Notes
+(optional)
+
+#### Related Issues or Tasks
+Closes #issue_number
