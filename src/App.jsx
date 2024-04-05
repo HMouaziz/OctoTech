@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Nav } from "./components/Nav/Nav.jsx";
 import { Homepage } from "./Pages/Homepage/Homepage.jsx";
 import { EnergyPage } from "./Pages/EnergyPage/EnergyPage.jsx";
-import InfoPage from "./Pages/InfoPage/InfoPage.jsx";
 import "./App.scss";
+import InfoPage from "./Pages/InfoPage/InfoPage.jsx";
 
 function App() {
   return (
