@@ -10,4 +10,19 @@
     background-repeat: no-repeat;
     background-color: $primary-background-color;
   }
+  &__image {
+    height: 500px;
+    width: auto;
+    background-image: url("../../assets/images/navigate.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+  }
+
+  &__info {
+    position: absolute;
+    top: 7.5rem;
+    left: 2.5rem;
+    @include primary-button;
+  }
 }
