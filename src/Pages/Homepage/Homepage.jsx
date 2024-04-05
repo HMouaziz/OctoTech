@@ -8,7 +8,7 @@ export const Homepage = () => {
       <div className="home__top"></div>
       <GreenTracker />
       <div className="home__image">
-        <Link to="/info" className="home__navigate">
+        <Link target="_blank" to="/info" className="home__navigate">
           <button className="home__info">See How Now</button>
         </Link>
       </div>
