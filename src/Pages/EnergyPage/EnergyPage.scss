@@ -1,0 +1,21 @@
+.background {
+  position: relative;
+}
+
+.graph {
+  position: absolute;
+  top: 17.3rem;
+  left: 0;
+  &__image {
+    width: 100%;
+  }
+  &--hide {
+    display: none;
+  }
+}
+
+.toggle {
+  position: absolute;
+  right: 0.9rem;
+  top: 14.95rem;
+}
