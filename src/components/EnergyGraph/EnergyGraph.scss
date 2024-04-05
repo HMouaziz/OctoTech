@@ -1,0 +1,21 @@
+.graph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  &__total {}
+  &__metric {
+    display: flex;
+    gap: 1rem;
+  }
+  &__image {
+    width: 311px;
+  }
+}
