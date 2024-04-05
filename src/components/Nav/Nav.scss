@@ -1,0 +1,64 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.navbar {
+  bottom: 0;
+  left: 0;
+  width: 414px;
+  background-color: $dark-background-color;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  height: 4.5rem;
+  align-items: center;
+  &__link {
+    color: $primary-text-color;
+    font-size: 0.6rem;
+    text-decoration: none;
+    justify-content: center;
+    &--selected {
+      padding: 1.2rem 0;
+      border-top: 3px solid $primary-graph-color;
+    }
+  }
+  &__home-icon {
+    width: 1.5rem;
+    height: 2rem;
+    background-image: url("../../assets/icons/octopus-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    &--selected {
+      background-image: url("../../assets/icons/selected-octopus-icon.png");
+      background-size: contain;
+      height: 1.5rem;
+      background-repeat: no-repeat;
+      margin-bottom: 0.1rem;
+    }
+  }
+
+  &__energy-icon {
+    width: 2rem;
+    height: 1.65rem;
+    background-image: url("../../assets/icons/energy-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 35% 0%;
+    &--selected {
+      background-image: url("../../assets/icons/selected-energy-icon.png");
+      background-size: contain;
+      height: 1.5rem;
+      background-repeat: no-repeat;
+      background-position: 45% 0%;
+    }
+  }
+
+  &__payments-icon {
+    width: 2rem;
+    height: 1.65rem;
+    background-image: url("../../assets/icons/payments-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 120% 0%;
+  }
+}
