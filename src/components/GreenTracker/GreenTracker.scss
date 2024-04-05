@@ -1,0 +1,14 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.tracker {
+  margin: 0 1rem;
+  &__title {
+    margin: 0 1rem;
+  }
+  &__container {
+    background-color: $dark-background-color;
+    width: 20rem;
+    height: 5rem;
+  }
+}
