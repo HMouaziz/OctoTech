@@ -74,13 +74,13 @@
 
 @mixin primary-button {
   @include custom-button;
-  background-color: $secondary-accent-color;
+  background-color: #5840ff;
   border: none;
   color: $primary-text-color;
-  width: 5rem;
+  width: 7rem;
 
   &:hover {
-    background-color: $primary-accent-color;
+    background-color: $primary-graph-color;
   }
 }
 

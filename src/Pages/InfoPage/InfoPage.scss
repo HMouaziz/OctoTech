@@ -1,0 +1,17 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.info {
+  padding-top: 5rem;
+  &__image {
+    width: 20rem;
+  }
+  &__btn {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  &__button {
+    @include primary-button;
+  }
+}
