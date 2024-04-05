@@ -4,8 +4,8 @@
 .home {
   background-color: $primary-background-color;
   &__top {
-    min-width: 414px;
     height: 500px;
+    width: auto;
     background-image: url("../../assets/images/app-home.png");
     background-repeat: no-repeat;
     background-color: $primary-background-color;
