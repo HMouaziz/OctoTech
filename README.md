@@ -1,28 +1,44 @@
-## Branch Name Rules
+# OctoTech
 
-- `main`
-- `dev`
-- `features/feature-name`
-- `refactor/refactor-name`
-- `bugfix/bugfix-name`
+OctoTech is a project developed during a 24-hour hackathon for Octopus Energy. The challenge was to create a solution that encourages customers to leverage abundant, affordable green energy while avoiding costly fossil fuels. Our prototype demonstrates how users can optimize their energy usage based on real-time data provided by the data science team.
 
-## Pull Request template
+## Features
 
-### Description
-This pull request addresses the following:
+    Real-time Energy Usage Optimization: Helps users manage and optimize their energy consumption by utilizing green energy sources.
+    User-friendly Interface: Simple and intuitive UI built with modern web technologies.
+    Data Integration: Seamless integration with data provided by the Octopus Energy data science team.
 
-- **Testing:**
-    - [ ] Tested the added feature to ensure it works as expected.
-    - [ ] Checked that the feature doesn't break existing functionality.
+## Technologies Used
 
-- **Changes Made:**
-    - [ ] Briefly describe the modifications made to existing functionality, if any.
+    Frontend: HTML, SCSS, JavaScript
+    Backend: Node.js, Express
+    Data Processing: Real-time data integration and analysis
 
-- **Additions:**
-    - [ ] Describe any new features, functionality, or code added in this pull request.
+## Installation
 
-#### Additional Notes
-(optional)
+To run the OctoTech project locally, follow these steps:
 
-#### Related Issues or Tasks
-Closes #issue_number
+Clone the repository:
+
+    
+    git clone https://github.com/your-username/octotech.git
+    cd octotech
+    
+
+Install dependencies:
+
+    
+    npm install
+    
+    
+Run the application:
+
+    
+    npm start
+    
+    
+Open your browser and navigate to:
+
+    
+    http://localhost:5173
+    
