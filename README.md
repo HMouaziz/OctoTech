@@ -21,7 +21,7 @@ To run the OctoTech project locally, follow these steps:
 Clone the repository:
 
     
-    git clone https://github.com/your-username/octotech.git
+    git clone https://github.com/HMouaziz/octotech.git
     cd octotech
     
 
